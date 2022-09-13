@@ -5,3 +5,135 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+/* nav{
+    border: 2px solid red;
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+      
+    
+    }
+    nav ul{
+        display: block;
+    }
+
+nav *{
+    border: 2px solid blue; 
+
+    }
+
+header{
+    border: 2px solid red; 
+    display: flex;
+    flex-direction: column;
+
+    }
+
+header *{
+    border: 2px solid blue; 
+    
+}
+
+button{
+    display: block;
+    margin: auto;
+}
+
+
+@media (max-width:768px){
+
+    body{
+        width: 100vw;
+    }
+    
+    nav{
+        width: 768px;
+        height: 50px;
+    }
+
+    header{
+        width: 768px;
+        height: 500px;
+    }
+
+    main{
+        width: 768px;
+    }
+
+    button{
+        width: 85%;
+    }
+
+   
+
+}
+ */
+
+ p{
+    font-family: sans-serif;
+    font-size: 25px;
+ }
+ 
+
+.menuLlista{
+    list-style-type: none;
+}
+
+nav{
+    border-bottom: solid 2px gray;
+    border-top: solid 2px gray;
+}
+
+header{
+    border: solid red 1px;
+}
+
+ @media (max-width:767px){
+
+    nav{
+        display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    padding: 0 25px;
+    }
+
+    .menuLlista{
+        width: 100px;
+
+    }
+
+    .imgSlak{
+        width: 100px;
+    }
+
+    header{
+        padding: 0 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .titolDiapou{
+        width: 500px;
+        font-size: 60px;
+    }
+
+    .paragrafDiapou{
+        width: 600px;
+        font-size: 30px;
+    }
+    
+
+
+
+
+
+
+ }
+
+   
